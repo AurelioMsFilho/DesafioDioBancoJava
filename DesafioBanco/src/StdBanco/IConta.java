@@ -1,7 +1,7 @@
 package StdBanco;
 
 public interface IConta {
-    void sacar(double valor);
+    boolean  sacar(double valor);
 		
 	void depositar(double valor); 
 		

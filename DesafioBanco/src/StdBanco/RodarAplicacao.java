@@ -4,7 +4,7 @@ public class RodarAplicacao {
 	public static void main(String[] args) {
 		
 		Cliente premier = new Cliente();
-		premier.setNome("Aurélio Filho");
+		premier.setNome("Meu");
 		Conta cc = new ContaCorrente(premier);
 		cc.depositar(100);
 		Conta cp = new ContaPoupanca(premier);
